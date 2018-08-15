@@ -83,3 +83,16 @@
     grid-template-columns: 1fr;
   }
 }
+
+@include mediaXs {
+  main {
+    h1.lg-heading {
+      font-size: 2.5rem;
+    }
+
+    .sm-heading {
+      font-size: 1rem;
+    }
+  }
+}
+
